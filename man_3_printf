@@ -20,7 +20,7 @@ On success, _printf returns the number of characters printed. If
 .I format
 is NULL or if the functions encounters any errors, it returns -1.
 .sp
-.B Format of the format string
+.B Format of the given format string
 .sp
 The format string can contain any characters, just like a regular string, in double quotes, which will be printed as is. For example, _printf(\(dqHello\(dq) will print: Hello.
 However, this format string can contain
