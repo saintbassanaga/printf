@@ -5,7 +5,7 @@
  * (0 < ASCII value < 32 or >= 127) are
  * printed this way: \x, followed by the ASCII code
  * value in hexadecimal (upper case - always 2 characters)
- * @l: va_list arguments from _printf
+ * @l: va_list arguments from _printf function
  * @f: pointer to the struct flags that determines
  * if a flag is passed to _printf
  * Return: number of char printed
